@@ -38,7 +38,7 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
   color: #ffffff;
-  border: 1px solid #2e80ce;
+  border: 2px solid #2e80ce;
   cursor: pointer;
 }
 
@@ -110,6 +110,7 @@ a {
   display: flex;
 }
 
+.action__login,
 .navbar__link {
   padding: 4px 21px;
   font-size: 1.6rem;
@@ -135,15 +136,16 @@ a {
   background: #fff;
 }
 
-.action__login {
-  font-size: 1.6rem;
-  font-weight: 300;
-  color: #c9d2da;
-}
-
 .action__logout {
   min-width: 104px;
   --height: 44px;
   font-size: 1.6rem;
-  margin-left: 28px;
+  margin-left: 7px;
 }
+
+.action__logout:hover {
+  background: transparent;
+  color: #c9d2da;
+}
+
+/* Hero */
