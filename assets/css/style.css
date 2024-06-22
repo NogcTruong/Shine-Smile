@@ -483,6 +483,10 @@ a {
   margin-top: 70px;
 }
 
+.member-item:hover .member-item__img {
+  transform: scale(1.1);
+}
+
 .member-item__img-bg {
   padding-top: 28px;
   border-radius: 6px;
@@ -512,7 +516,7 @@ a {
   font-size: 1.4rem;
   font-weight: 300;
   line-height: 1.86;
-  color: #575F66;
+  color: #575f66;
 }
 
 .members__control {
@@ -525,9 +529,9 @@ a {
 .member__control-btn {
   width: 36px;
   height: 36px;
-  border: 1px solid #575F66;
+  border: 1px solid #575f66;
   border-radius: 50%;
-  color: #575F66;
+  color: #575f66;
   background: transparent;
   cursor: pointer;
   display: flex;
@@ -536,7 +540,48 @@ a {
 }
 
 .member__control-btn:hover {
-  background: #2E80CE;
-  color: #FFF;
-  border: 1px solid #2E80CE;
+  background: #2e80ce;
+  color: #fff;
+  border: 1px solid #2e80ce;
+}
+
+/* ========== Install ========== */
+.install {
+  margin-top: 170px;
+}
+
+.install__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2e80ce;
+  padding: 0 70px;
+  border-radius: 4px;
+}
+
+.install__img {
+  display: block;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  margin-top: -95px;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install_desc,
+.install__heading {
+  color: #FFFFFF;
+}
+
+.install_desc {
+  margin-top: 18px;
+}
+
+.install__row {
+  display: flex;
+  margin-top: 38px;
+  column-gap: 28px;
 }
